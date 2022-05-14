@@ -34,6 +34,8 @@ dependencies {
 ```
 
 ## Usage📓
+
+### Masks🎭
 You can use the `ExpirationDateMask` or `CardNumberMask` VisualTransformations, by simply passing the respective composable to the `visualTransfomration` field of your `TextField`. For example:
 
 ```Kotlin
@@ -73,3 +75,7 @@ This will produce the following:
 <p align="start">
   <img src="assets/cardnum_example.gif" alt="Expiration Date Example Image" />
 </p>
+
+### Card Types 
+You can use the provided `getCardTypeFromNumber(number: String)` function which accepts a string containing the input card number, and returning one of the recognized types or `UKNOWN` if no match was found. You can use it for building out Topup/Payment forms, card-selection or card-creation forms, and much more. Here's an example from the sample project:
+
