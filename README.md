@@ -11,7 +11,7 @@ A Jetpack-Compose library providing useful credit card utilities such as card ty
   - JCB
   - Discover
 
-- 🤩Beautiful VisualTransformation subclasses for the following use-cases:
+- 🤩Simple VisualTransformation subclasses for the following use-cases:
   - Card expiration date
   - Card number (with custom separators)
 
