@@ -49,3 +49,5 @@ fun Expiration() {
     )
 }
 ```
+The above code can will produce something like the following:
+![Expiration Date Example Image][assets/exp_example.gif]
