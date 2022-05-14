@@ -49,5 +49,7 @@ fun Expiration() {
     )
 }
 ```
-The above code can will produce something like the following:
-![Expiration Date Example Image][assets/exp_example.gif]
+The above code will produce something like the following:
+<p align="start">
+  <img src="assets/exp_example.gif" alt="Expiration Date Example Image" />
+</p>
