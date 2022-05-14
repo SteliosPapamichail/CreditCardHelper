@@ -53,7 +53,7 @@ fun Expiration() {
 ```
 The above code will produce something like the following:
 <p align="start">
-  <img src="assets/exp_example.gif" alt="Expiration Date Example Image" />
+  <img src="assets/exp_example.gif" alt="Expiration date example image" />
 </p>
 
 The `CardNumberMask` transform will use the `" "` blank separator by default. If you would like to use a custom one, you can simply pass it as a parameter to the composable like so:
@@ -73,9 +73,12 @@ fun CardNumber() {
 ```
 This will produce the following:
 <p align="start">
-  <img src="assets/cardnum_example.gif" alt="Expiration Date Example Image" />
+  <img src="assets/cardnum_example.gif" alt="Card number example image" />
 </p>
 
-### Card Types 
+### Card Types🤖
 You can use the provided `getCardTypeFromNumber(number: String)` function which accepts a string containing the input card number, and returning one of the recognized types or `UKNOWN` if no match was found. You can use it for building out Topup/Payment forms, card-selection or card-creation forms, and much more. Here's an example from the sample project:
 
+<p align="start">
+  <img src="assets/card_rec_example.gif" alt="Card recognition example image" />
+</p>
