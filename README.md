@@ -53,8 +53,10 @@ The above code will produce something like the following:
 <p align="start">
   <img src="assets/exp_example.gif" alt="Expiration Date Example Image" />
 </p>
+
 The `CardNumberMask` transform will use the `" "` blank separator by default. If you would like to use a custom one, you can simply pass it as a parameter to the composable like so:
-```kotlin
+
+```Kotlin
 @Composable
 fun CardNumber() {
     var number by remember { mutableStateOf("") }
@@ -63,7 +65,6 @@ fun CardNumber() {
         visualTransformation = CardNumberMask("-"),
         onValueChange = {
             if (it.length <= 16) number = it
-            Log.d("MYLIB", getCardTypeFromNumber(number).name)
         }, label = { Text("Card number") }
     )
 }
