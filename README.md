@@ -1,7 +1,7 @@
-# 🖊️CreditCardHelper
+# CreditCardHelper🖊️
 A Jetpack-Compose library providing useful credit card utilities such as card type recognition and TextField ViewTransformations!
 
-## What's included?
+## What's included?📜
 - 🗂️Automatic card type recognition that supports the following card types:
   - Visa
   - Mastercard
@@ -14,7 +14,8 @@ A Jetpack-Compose library providing useful credit card utilities such as card ty
 - 🤩Beautiful VisualTransformation subclasses for the following use-cases:
   - Card expiration date
   - Card number (with custom separators)
-## Adding the library to your project
+
+## Adding the library to your project✨
 
 Add the following to your **root** `build.gradle` file:
 ```gradle
@@ -32,4 +33,4 @@ dependencies {
 }
 ```
 
-## Usage
+## Usage📓
