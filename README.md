@@ -29,8 +29,23 @@ allprojects {
 Next, add the dependency below to your **module**'s `build.gradle` file:
 ```gradle
 dependencies {
-  implementation 'com.github.SteliosPapamichail:CreditCardHelper:Tag'
+  implementation 'com.github.SteliosPapamichail:CreditCardHelper:v1.0.0'
 }
 ```
 
 ## Usage📓
+You can use the `ExpirationDateMask` or `CardNumberMask` VisualTransformations, by simply passing the respective composable to the `visualTransfomration` field of your `TextField`. For example:
+
+```Kotlin
+@Composable
+fun Expiration() {
+    var expiration by remember { mutableStateOf("") }
+    OutlinedTextField(
+        value = expiration,
+        visualTransformation = ExpirationDateMask(),
+        onValueChange = {
+            if (it.length <= 4) expiration = it
+        }, label = { Text("Expiration") }
+    )
+}
+```
