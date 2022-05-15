@@ -4,7 +4,7 @@ A Jetpack-Compose library providing useful credit card utilities such as card ty
 [![](https://jitpack.io/v/SteliosPapamichail/CreditCardHelper.svg)](https://jitpack.io/#SteliosPapamichail/CreditCardHelper)
 
 ## What's included?📜
-- 🗂️Automatic card type recognition that supports the following card types:
+- 🗂️Automatic card type recognition that supports the following cards:
   - Visa
   - Mastercard
   - Maestro
