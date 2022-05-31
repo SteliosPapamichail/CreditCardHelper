@@ -2,6 +2,10 @@
 A Jetpack-Compose library providing useful credit card utilities such as card type recognition and TextField ViewTransformations!
 
 [![](https://jitpack.io/v/SteliosPapamichail/CreditCardHelper.svg)](https://jitpack.io/#SteliosPapamichail/CreditCardHelper)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=SteliosPapamichail_CreditCardHelper&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=SteliosPapamichail_CreditCardHelper)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=SteliosPapamichail_CreditCardHelper&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=SteliosPapamichail_CreditCardHelper)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=SteliosPapamichail_CreditCardHelper&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=SteliosPapamichail_CreditCardHelper)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=SteliosPapamichail_CreditCardHelper&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=SteliosPapamichail_CreditCardHelper)
 
 ## What's included?📜
 - 🗂️Automatic card type recognition that supports the following cards:
