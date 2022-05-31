@@ -30,9 +30,7 @@ jobs:
           key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle') }}
           restore-keys: ${{ runner.os }}-gradle
       - name: Build debug version
-        uses: vgaidarji/android-github-actions-build@v1.0.1
-        with:
-          args: "./gradlew assembleDebug"
+        run: ./gradlew assembleDebug
       - name: Build and analyze with SonarQube
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
