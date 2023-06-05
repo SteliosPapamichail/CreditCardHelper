@@ -19,7 +19,7 @@ A Jetpack-Compose library providing useful credit card utilities such as card ty
 
 - 🤩Simple VisualTransformation subclasses for the following use-cases:
   - Card expiration date
-  - Card number (with custom separators)
+  - Card number (with custom separators, digit masking for the first twelve digits & more)
 
 ## Adding the library to your project✨
 
